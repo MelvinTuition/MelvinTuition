@@ -39,12 +39,12 @@ h1 {
 }
 
 .topFootervideoStyle > img {
-    width: 30%;
+    width: 40%;
 }
 
 .lists {
   list-style-type: none;
-  font-size: 120%;
+  font-size: 100%;
   padding: 2em;
 }
 
@@ -67,7 +67,16 @@ h1 {
 
 .profile > img {
   width: 35%;
-  border: 1px solid gray;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#WWlogo {
+  width: 20%;
 }
 
 /** ipad ,Air **/
