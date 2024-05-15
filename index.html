@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="icon.png" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="Assets/icon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="WebWizards is a frontend web development agency specializing in HTML, CSS, JavaScript, React, data analytics, SEO, and custom chatbots."
+    />
+    <meta
+      name="keywords"
+      content="frontend web development, HTML, CSS, JavaScript, React, data analytics, SEO, chatbots"
+    />
+    <meta name="author" content="WebWizards" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="responsiveness.css" />
+    <link rel="stylesheet" href="slideshow.css" />
+    <link rel="icon" href="Assets/BannerLogo.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <title>Melvin's Tuition</title>
+  </head>
+
+  <body>
+    <nav id="Top">
+      <div class="topbannervideo" id="top">
+        <img
+          src="Assets/BannerLogo.png"
+          class="BannerStyle"
+          alt="Banner logo"
+        />
+      </div>
+      <div class="topnav">
+        <a href="#">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#AboutMe">About Me</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="mainVideo">
+        <video
+          autoplay
+          muted
+          playsinline
+          loop
+          src="Assets/mainVideo.mp4"
+        ></video>
+      </div>
+    </main>
+
+    <section>
+      <div class="sectionStyle">
+        <div class="sectionWrapper">
+            <h1>Achieve Your Academic Goals</h1>
+            <p class="sectionContentPStyle">
+              Welcome to a personalized learning experience where passion meets purpose. I am a dedicated freelance tutor specializing in Chemistry and Physics, committed to helping students harness the beauty and complexity of these subjects. Whether you're gearing up for national exams or seeking to deepen your understanding, my tailored approach is designed to foster both academic excellence and a genuine love for science.
+            </p>
+            <video id="gradesVideo" autoplay muted playsinline loop src="Assets/GradesIcon.mp4"></video>
+          </div>
+    </section>
+
+    <h1 id="reviews">Reviews</h1>
+    <section id="slideshowWrapper">
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="Assets/reviews/4.jpg" style="width:100%">
+    <div class="text">Student</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="Assets/reviews/5.jpg" style="width:100%">
+    <div class="text">Student</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="Assets/reviews/6.jpg" style="width:100%">
+    <div class="text">Parents</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="Assets/reviews/7.jpg" style="width:100%">
+    <div class="text">Parents</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="Assets/reviews/8.jpg" style="width:100%">
+    <div class="text">Parents</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="Assets/reviews/10.jpg" style="width:100%">
+    <div class="text">Student</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="Assets/reviews/12.jpg" style="width:100%">
+    <div class="text">Parents</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="Assets/reviews/15.jpg" style="width:100%">
+    <div class="text">Tutoring Agency</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="Assets/reviews/16.jpg" style="width:100%">
+    <div class="text">Parents</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="Assets/reviews/17.jpg" style="width:100%">
+    <div class="text">Tutoring Agency</div>
+  </div>
+  <!-- Repeat this pattern until 17.jpg -->
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+</div>
+    </section>
+
+    <aside>
+    <h1 id="AboutMe">About Me</h1>
+    <div class="profile">
+      <img src="Assets/profile.jpg" alt="Profile picture" />
+    </div>
+    </aside>
+
+    <footer>
+      <main>
+        <div class="footerStyle">
+          <div class="footerWrapper">
+            <div class="footerContent gridFooter">
+              <div class="topFootervideoStyle">
+                <img src="./Assets/MelvinLogo.png" alt="Company logo" />
+              </div>
+              <div class="listContainer listContainer1">
+                <ol class="lists">
+                  <a href="#Top">
+                    <li class="individualLists">Back to top</li>
+                  </a>
+                  <a href="https://yanguangchen.github.io/WebWizards/#Services">
+                    <li class="individualLists">Services</li>
+                  </a>
+                  <a href="contact.html">
+                    <li class="individualLists">Contact</li>
+                  </a>
+                </ol>
+              </div>
+              <div class="listContainer listContainer1">
+                <ol class="lists">
+                  <a href="#Top">
+                    <li class="individualLists">Reviews</li>
+                  </a>
+                  </a>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottomSection">
+          <p class="footerContentPStyle">
+            Developed by Chen Yanguang from Web Wizards
+          </p>
+        </div>
+      </main>
+    </footer>
+  </body>
+</html>
+
+<script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>

@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    border: 0;
+    overflow: auto!important;
+    max-height: 100% !important;
+    height: 100vh; 
+    scroll-behavior: smooth;
+    font-family: roboto, Arial, sans-serif;
+}
+  
+  body {
+    margin: 0;
+    border: 0;
+    font-family: "League Spartan", Roboto, Arial;
+    overflow: auto!important;
+    max-height: 100% !important;
+    height: 100vh; 
+    scroll-behavior: smooth;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .sectionStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+    text-align: center;
+  }
+
+  .sectionWrapper {
+    width: 35% !important;
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-size: 110% !important;
+  }
+
+  #gradesVideo {
+    width: 30%;
+  }
