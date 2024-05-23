@@ -1,83 +1,124 @@
 /**Ipad Pro**/
 @media only screen and (max-width: 1024px) {
-    .sectionWrapper {
-        width: 40% !important;
-        border: 1px solid gray;
-        padding-bottom: 1%;
-        padding-left: 3%;
-        padding-right: 3%;
-        border-radius: 10px;
-        font-size: 110%;
-      }
+  .sectionWrapper {
+    width: 40% !important;
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-size: 110%;
+  }
+
+  .whyMeGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 2em;
+    width: 80% !important;
+    column-gap: 3%;
+  }
 }
 
 /**Ipad Air**/
 @media only screen and (max-width: 820px) {
-    .sectionWrapper {
-        width: 45% !important;
-        border: 1px solid gray;
-        padding-bottom: 1%;
-        padding-left: 3%;
-        padding-right: 3%;
-        border-radius: 10px;
-        font-size: 110%;
-      }
-      .mainVideo > video {
-        width: 100%;
-    }
+  .sectionWrapper {
+    width: 45% !important;
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-size: 110%;
+  }
+  .mainVideo > video {
+    width: 100%;
+  }
+
+  .whyMeGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 2em;
+    width: 90% !important;
+    column-gap: 3%;
+    font-size: 100%;
+  }
 }
 
 /**Ipad Mini**/
 @media only screen and (max-width: 768px) {
-    .sectionWrapper {
-        width: 50% !important;
-        border: 1px solid gray;
-        padding-bottom: 1%;
-        padding-left: 3%;
-        padding-right: 3%;
-        border-radius: 10px;
-        font-size: 110%;
-      }
-      .mainVideo > video {
-        width: 110%;
-    }
+  .sectionWrapper {
+    width: 50% !important;
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-size: 110%;
+  }
+  .mainVideo > video {
+    width: 110%;
+  }
 }
 
 /**Iphone 14 pro max**/
 @media only screen and (max-width: 430px) {
-    .sectionWrapper {
-        width: 65% !important;
-        border: 1px solid gray;
-        padding-bottom: 1%;
-        padding-left: 3%;
-        padding-right: 3%;
-        border-radius: 10px;
-        font-size: 80%;
-      }
+  .sectionWrapper {
+    width: 65% !important;
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-size: 80%;
+  }
+  #studentsCount {
+    width: 70% !important;
+  }
+  .contactDetails > p {
+    font-size: 10% !important;
+  }
+
+  #mailto {
+    font-size: 100% !important;
+  }
+
+  .whyMeGrid {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .WhyMe1,
+  .WhyMe2,
+  .WhyMe3 {
+    margin-top: 10%;
+  }
 }
 
 /**Iphone 12 pro**/
 @media only screen and (max-width: 390px) {
-    .sectionWrapper {
-        width: 70% !important;
-        border: 1px solid gray;
-        padding-bottom: 1%;
-        padding-left: 3%;
-        padding-right: 3%;
-        border-radius: 10px;
-        font-size: 80%;
-      }
+  .sectionWrapper {
+    width: 70% !important;
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-size: 80%;
+  }
 }
 
 /**Iphone 12 pro**/
 @media only screen and (max-width: 390px) {
-    .sectionWrapper {
-        width: 70% !important;
-        border: 1px solid gray;
-        padding-bottom: 1%;
-        padding-left: 3%;
-        padding-right: 3%;
-        border-radius: 10px;
-        font-size: 80%;
-      }
+  .sectionWrapper {
+    width: 70% !important;
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-size: 80%;
+  }
 }

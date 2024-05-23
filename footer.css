@@ -75,6 +75,82 @@ h1 {
   align-items: center;
 }
 
+#mailto a {
+  color: #0b2447 !important;
+}
+
+.contactDetails {
+  color: #0b2447;
+  font-size: 130%;
+}
+
+aside:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+
+#studentsCount {
+  width: 20%;
+}
+
+#features {
+  margin-top: 15%;
+}
+
+#WhyMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.whyMeGrid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 2em;
+  width: 70%;
+  column-gap: 3%;
+}
+
+.WhyMe1,
+.WhyMe2,
+.WhyMe3 {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 5%;
+}
+
+h2 {
+  color: #19376D
+}
+
+.WhyMe1:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+
+.WhyMe2:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+
+.WhyMe3:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+.contactWrapper {
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flexContact {
+  width: 30%;
+  background: #0b2447;
+  padding: 1%;
+}
+
 #WWlogo {
   width: 20%;
 }
