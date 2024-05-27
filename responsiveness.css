@@ -10,6 +10,17 @@
     font-size: 110%;
   }
 
+  #slideshowWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .slideshow-container {
+      width: 700px;
+    }
+
   .whyMeGrid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -42,6 +53,10 @@
     column-gap: 3%;
     font-size: 100%;
   }
+
+  .slideshow-container {
+    width: 600px;
+  }
 }
 
 /**Ipad Mini**/
@@ -57,6 +72,9 @@
   }
   .mainVideo > video {
     width: 110%;
+  }
+  .slideshow-container {
+    width: 460px;
   }
 }
 
@@ -95,18 +113,9 @@
   .WhyMe3 {
     margin-top: 10%;
   }
-}
 
-/**Iphone 12 pro**/
-@media only screen and (max-width: 390px) {
-  .sectionWrapper {
-    width: 70% !important;
-    border: 1px solid gray;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
-    border-radius: 10px;
-    font-size: 80%;
+  .slideshow-container {
+    width: 350px;
   }
 }
 
@@ -120,5 +129,65 @@
     padding-right: 3%;
     border-radius: 10px;
     font-size: 80%;
+  }
+
+  .slideshow-container {
+    width: 310px;
+  }
+}
+
+/**Iphone XR **/
+@media only screen and (max-width: 414px) {
+
+  .slideshow-container {
+    width: 340px;
+  }
+}
+
+/**Iphone SE **/
+@media only screen and (max-width: 375px) {
+
+  .slideshow-container {
+    width: 300px;
+  }
+}
+
+/**Surface Duo **/
+@media only screen and (max-width: 540px) {
+
+  .slideshow-container {
+    width: 320px;
+  }
+}
+
+/**Galaxy Z Fold 5 **/
+@media only screen and (max-width: 344px) {
+
+  .slideshow-container {
+    width: 300px;
+  }
+}
+
+/**Surface pro 7 **/
+@media only screen and (max-width: 912px) {
+
+  .slideshow-container {
+    width: 650px;
+  }
+}
+
+/**Galaxy S20 Ultra **/
+@media only screen and (max-width: 412px) {
+
+  .slideshow-container {
+    width: 340px;
+  }
+}
+
+/**Galaxy S8+ **/
+@media only screen and (max-width: 412px) {
+
+  .slideshow-container {
+    width: 300px;
   }
 }
