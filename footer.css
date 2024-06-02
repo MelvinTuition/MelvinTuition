@@ -132,14 +132,6 @@ h2 {
   transform: scale(1.1);
   transition: ease-in-out 0.5s;
 }
-.contactWrapper {
-  margin-top: 7%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .flexContact {
   width: 30%;
   background: #0b2447;
@@ -148,6 +140,10 @@ h2 {
 
 #WWlogo {
   width: 20%;
+}
+
+#gradesVideo {
+  width: 50%;
 }
 
 /** ipad ,Air **/

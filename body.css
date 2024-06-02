@@ -7,3 +7,7 @@
 .mainVideo > video {
     width: 70%;
 }
+
+.bottomVideoGrid > video{
+    width: 60%;
+}
